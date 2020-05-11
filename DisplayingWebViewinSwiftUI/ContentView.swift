@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        WebView(url: "https://www.bbc.co.uk")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: WebView(url: "https://www.bbc.co.uk")) {
+                    Text("BBC")
+                }.padding()
+                NavigationLink(destination: AppleWebView()) {
+                    Text("Apple")
+                }.padding()
+            }.navigationBarTitle(Text("WebViews"))
+        }
     }
 }
 

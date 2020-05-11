@@ -14,6 +14,7 @@
 		95127C2D2364D28200F1A4F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95127C2C2364D28200F1A4F0 /* Preview Assets.xcassets */; };
 		95127C302364D28200F1A4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95127C2E2364D28200F1A4F0 /* LaunchScreen.storyboard */; };
 		95127C382364D2B800F1A4F0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95127C372364D2B800F1A4F0 /* WebView.swift */; };
+		95404B17246943C70071C24D /* AppleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B16246943C70071C24D /* AppleWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		95127C2F2364D28200F1A4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95127C312364D28200F1A4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95127C372364D2B800F1A4F0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		95404B16246943C70071C24D /* AppleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				95127C312364D28200F1A4F0 /* Info.plist */,
 				95127C2B2364D28200F1A4F0 /* Preview Content */,
 				95127C372364D2B800F1A4F0 /* WebView.swift */,
+				95404B16246943C70071C24D /* AppleWebView.swift */,
 			);
 			path = DisplayingWebViewinSwiftUI;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				95127C242364D28100F1A4F0 /* AppDelegate.swift in Sources */,
 				95127C382364D2B800F1A4F0 /* WebView.swift in Sources */,
+				95404B17246943C70071C24D /* AppleWebView.swift in Sources */,
 				95127C262364D28100F1A4F0 /* SceneDelegate.swift in Sources */,
 				95127C282364D28100F1A4F0 /* ContentView.swift in Sources */,
 			);
