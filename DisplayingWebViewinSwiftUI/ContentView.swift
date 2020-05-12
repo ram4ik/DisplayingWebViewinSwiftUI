@@ -18,6 +18,9 @@ struct ContentView: View {
                 NavigationLink(destination: AppleWebView()) {
                     Text("Apple")
                 }.padding()
+                NavigationLink(destination: DynamicWebView(urlRequest: URLRequest(url: URL(string: "https://www.bing.co.uk")!))) {
+                    Text("Bing")
+                }.padding()
             }.navigationBarTitle(Text("WebViews"))
         }
     }
